@@ -454,11 +454,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #34b7a7;
+  background: #4682b4;
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #87ceeb;
 }
 
 @media (min-width: 1024px) {
@@ -929,6 +929,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+/* .portfolio{
+  background: url("../assets/img/nightsky.jpg") top right;
+  background-size: cover;
+} */
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1278,4 +1283,23 @@ section {
 
 #footer .credits a {
   color: #34b7a7;
+}
+
+.imeg{
+  min-height: 120px;
+  min-width: 175px;
+  border-radius: 16px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.card{
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    transition: .5s;
 }
