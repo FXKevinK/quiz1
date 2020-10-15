@@ -615,25 +615,25 @@ section {
 }
 
 /*--------------------------------------------------------------
-# food
+# makan
 --------------------------------------------------------------*/
 .fuud{
   background: url("../assets/img/fud2.jpg") top right;
   background-size: cover;
 }
 
-.food .food-item {
+.makan .makan-item {
   margin-bottom: 30px;
 }
 
-.food #food-flters {
+.makan #makan-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.food #food-flters li {
+.makan #makan-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
@@ -647,16 +647,16 @@ section {
   border-radius: 50px;
 }
 
-.food #food-flters li:hover, .food #food-flters li.filter-active {
+.makan #makan-flters li:hover, .makan #makan-flters li.filter-active {
   color: #fff;
   background: #000080;
 }
 
-.food #food-flters li:last-child {
+.makan #makan-flters li:last-child {
   margin-right: 0;
 }
 
-.food .food-wrap {
+.makan .makan-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -664,7 +664,7 @@ section {
   background: rgba(34, 34, 34, 0.6);
 }
 
-.food .food-wrap::before {
+.makan .makan-wrap::before {
   content: "";
   background: rgba(34, 34, 34, 0.6);
   position: absolute;
@@ -677,11 +677,11 @@ section {
   opacity: 0;
 }
 
-.food .food-wrap img {
+.makan .makan-wrap img {
   transition: all ease-in-out 0.3s;
 }
 
-.food .food-wrap .food-info {
+.makan .makan-wrap .makan-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -697,13 +697,13 @@ section {
   padding: 20px;
 }
 
-.food .food-wrap .food-info h4 {
+.makan .makan-wrap .makan-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.food .food-wrap .food-info p {
+.makan .makan-wrap .makan-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -712,12 +712,12 @@ section {
   font-style: italic;
 }
 
-.food .food-wrap .food-links {
+.makan .makan-wrap .makan-links {
   text-align: center;
   z-index: 4;
 }
 
-.food .food-wrap .food-links a {
+.makan .makan-wrap .makan-links a {
   color: #fff;
   margin: 0 5px 0 0;
   font-size: 28px;
@@ -725,19 +725,19 @@ section {
   transition: 0.3s;
 }
 
-.food .food-wrap .food-links a:hover {
+.makan .makan-wrap .makan-links a:hover {
   color: #78d9cd;
 }
 
-.food .food-wrap:hover::before {
+.makan .makan-wrap:hover::before {
   opacity: 1;
 }
 
-.food .food-wrap:hover img {
+.makan .makan-wrap:hover img {
   transform: scale(1.2);
 }
 
-.food .food-wrap:hover .food-info {
+.makan .makan-wrap:hover .makan-info {
   opacity: 1;
 }
 
