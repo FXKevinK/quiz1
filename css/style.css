@@ -539,6 +539,25 @@ section {
   margin-bottom: 0;
 }
 
+.card-2 {
+  width: 80%;
+  padding-left: 30;
+  padding-right: 0;
+  max-height: 800px;
+  object-fit: cover;
+  max-width: 500px;
+  -webkit-box-flex: 0;
+  max-width: 100%;
+}
+
+.imeg, .imeg-mob{
+  /* min-height: 50px; */
+  /* min-width: 100px; */
+  border-radius: 16px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 /*--------------------------------------------------------------
 # tourist
 --------------------------------------------------------------*/
