@@ -603,17 +603,6 @@ section {
   object-fit: cover;
 }
 
-.card{
-  box-shadow: 0 5px 15px rgba(0,0,0,.5);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  padding: 20px;
-  margin-top: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 5px 15px rgba(0,0,0,.5);
-  transition: .5s;
-}
-
 /*--------------------------------------------------------------
 # makan
 --------------------------------------------------------------*/
