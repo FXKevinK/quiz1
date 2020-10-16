@@ -108,30 +108,13 @@
       return false;
     });
   
-    // Skills section
-    $('.skills-content').waypoint(function() {
-      $('.progress .progress-bar').each(function() {
-        $(this).css("width", $(this).attr("aria-valuenow") + '%');
-      });
-    }, {
-      offset: '80%'
-    });
-  
     // jQuery counterUp
     $('[data-toggle="counter-up"]').counterUp({
       delay: 10,
       time: 1000
     });
   
-    // Testimonials carousel (uses the Owl Carousel library)
-    $(".testimonials-carousel").owlCarousel({
-      autoplay: true,
-      dots: true,
-      loop: true,
-      items: 1
-    });
-  
-    // Porfolio isotope and filter
+    // Food isotope and filter
     $(window).on('load', function() {
       var makanIsotope = $('.makan-container').isotope({
         itemSelector: '.makan-item'
@@ -147,7 +130,7 @@
         aos_init();
       });
   
-      // Initiate venobox (lightbox feature used in portofilo)
+      // Initiate venobox (lightbox feature used in food)
       $(document).ready(function() {
         $('.venobox').venobox({
           'share': false
